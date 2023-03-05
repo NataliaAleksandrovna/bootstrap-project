@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 16px/18px "Roboto";
+}
+.container nav {
+  background-color: #343a40;
+}
+nav a {
+  color: #ffff;
+}
+nav a:hover {
+  color: #dee2e6;
+}
+.navbar-brand {
+  font: 20px/23px "Roboto";
+  font-style: "Regular";
+}
+.card {
+  border: 0;
+}
+.portfolio .card {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: #e9ecef;
+}
+.card-body {
+  padding: 0;
+}
+.portfolio .card-title {
+  font: 72px/84px "Roboto";
+}
+.card-text {
+  font: 16px/18px "Roboto";
+}
+.portfolio {
+  background-color: #e9ecef;
+}
+.portfolio .card {
+  margin-left: 55px;
+}
+.profile {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.profile .name {
+  font: 20px/24px "Roboto";
+}
+.profile .card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-left: 55px;
+  margin-bottom: 2rem;
+}
+.profile .card-title {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 1rem 1rem 1rem 1.25rem;
+}
+
+.profile .card-text,
+.profile .btn {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+table {
+  margin-top: 2rem;
+  border: 1px solid #dee2e6;
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-bottom: 80px;
+}
+th {
+  white-space: nowrap;
+}
+.footer {
+  margin: 1rem auto 1rem 55px;
+
+  color: #6c757d;
+}
+footer {
+  border: 1px solid #f5f5f5;
+}
+@media (max-width: 576px) {
+  .portfolio .card-title {
+    font: 48px/56px "Roboto";
+  }
+}
